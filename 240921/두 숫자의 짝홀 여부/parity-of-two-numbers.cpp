@@ -8,13 +8,13 @@ int main() {
         cout << "even" << '\n';
     }
     else {
-        cout << "odd;" << '\n';
+        cout << "odd" << '\n';
     }
     if (b%2==0){
         cout << "even";
     }
     else {
-        cout << "odd;";
+        cout << "odd";
     }
     return 0;
 }
