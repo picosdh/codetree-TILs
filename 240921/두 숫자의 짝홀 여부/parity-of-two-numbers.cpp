@@ -11,10 +11,10 @@ int main() {
         cout << "odd;" << '\n';
     }
     if (b%2==0){
-        cout << "even" << '\n';
+        cout << "even";
     }
     else {
-        cout << "odd;" << '\n';
+        cout << "odd;";
     }
     return 0;
 }
