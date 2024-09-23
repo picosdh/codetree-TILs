@@ -1,10 +1,12 @@
-n = int(input())
-ans = 0
-def go(n):
-    return (n*(n+1))*1/2
-for i in range(int(n**0.2), 141421356):
-    if go(i) <= n:
-        ans = i
-    else:
-        break
-print(ans)
+def max_n(s):
+    n = 0
+    total = 0
+    while True:
+        n += 1
+        total += n
+        if total > s:
+            return n - 1
+
+s = int(input())
+result = max_n(s)
+print(result)
