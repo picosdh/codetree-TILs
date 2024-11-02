@@ -5,7 +5,7 @@ int main() {
     int i = 10;
     while(i <= 26){
         cout << i << ' ';
-        i++
+        i++;
     }
     return 0;
 }
