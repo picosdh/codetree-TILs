@@ -17,7 +17,7 @@ for i in range(len(l)):
                     res = 0
         else:
             print("Yes")
-            break
+            exit()
     else:
         break
 if res == len(l1):
