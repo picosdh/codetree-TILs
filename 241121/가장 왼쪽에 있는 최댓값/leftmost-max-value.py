@@ -15,8 +15,14 @@ l = list(map(int, input().split()))
 maxV = float("-INF")
 a = 0
 res = []
+
 while True:
     res.append(go(maxV, l))
+    l = l[0:go(maxV, l)-1]
+    a = go(maxV, l)+1
+    if a == 1:
+        break
+print(*res, 1, end=' ')
     l = l[0:go(maxV, l)-1]
     a = go(maxV, l)
     if a == 1:
