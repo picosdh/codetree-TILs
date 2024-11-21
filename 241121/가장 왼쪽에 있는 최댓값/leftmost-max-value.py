@@ -1,3 +1,5 @@
+import sys
+sys.setrecursionlimit(10**5)
 def go(maxV, l):
     maxi = 0
     for i in range(len(l)):
