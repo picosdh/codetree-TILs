@@ -22,5 +22,5 @@ while True:
     l = l[0:go(maxV, l)-1]
     if a == 1:
         break
-print(*res, 1, end=' ')
+print(*res,  end=' ')
         
