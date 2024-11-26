@@ -17,7 +17,7 @@ for i in range(1, n):
         elif i + 1 == n and j + 1 == m:
             l[i][j] = l[i][j-1] + 1
         else:
-            l[i][j] = l[i-1][j] + m - n + i
+            l[i][j] = l[i-1][j] + abs(m - n) + i
 for i in range(n):
     print(*l[i], end=' ')
     print()
